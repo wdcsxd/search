@@ -1,0 +1,221 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>最重要的是你的搜索逻辑</title>
+
+<style>
+body {
+	background-color:1c1e2a;
+}
+
+#leftside{
+	background-color:2d3142;
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	width:250px;
+}
+
+#leftside-inner{
+	position:absolute;
+	top:0;
+	bottom:auto;
+	left:10;
+	right:10;
+	width:230px;
+}
+
+#rightside{
+	position:absolute;
+	top:0;	
+	bottom:0;
+	left:250;
+	right:0;
+}
+
+#rightside-inner{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:50;
+	right:50;
+}
+
+a{
+	text-decoration:none;
+	color:#03fccc;
+}
+
+p{
+	color:bdc8d7;
+}
+
+#first1,#first2,#first3{
+	line-height:40px; 
+	font-size:24px;
+	font-weight:bold;
+}
+
+tr td p {
+	color:#000000;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!--侧边栏-->
+<div id="leftside">
+<div id="leftside-inner">
+<p align="center" style="font-size:18px">数字信息检索杂记</p><hr>
+<p><a style="color:bdc8d7;" href="#first1">数字信息检索的途径</a></p>
+<p><a style="color:bdc8d7;" href="#first2">搜索引擎：关键词和语法</a></p>
+<p><a style="color:bdc8d7;" href="#first3">信息检索的习惯</a></p>
+</div>
+</div>
+
+<div id="rightside">
+<div id="rightside-inner">
+
+<!--数字信息检索的途径-->
+<p id="first1">数字信息检索的途径</p>
+<p>有两种检索信息的途径：</p>
+<p>一是通过全网信息抓取的搜索引擎来获取所要信息，如<a href="http:www.baidu.com">百度</a>；</p>
+<p>二是通过专门聚合目标信息所属类型的信息的网站来获取所要信息，如要获取跟“多肉”有关的信息可以去<a href="http://www.drlmeng.com">多肉联盟</a>。</p>
+<p>若是实在搜索不到想要的目标信息，可以求助广大网友。求助的平台同样分两种：</p>
+<p>一种是包罗万象的知识互动平台，如<a href="http://www.zhihu.com">知乎</a>；</p>
+<p>另一种是专攻性较强的论坛，如要寻求解决IT问题，可以去<a href="http://bbs.csdn.net/home">CSDN论坛</a>。</p>
+
+<!--搜索引擎：关键词和语法-->
+<p id="first2">搜索引擎：关键词和语法</p>
+<p>关键词和语法是搜索引擎检索的两个要素。</p>
+<p>1.选准“关键词”很重要。</p>
+<p>可以通过同义（关键）词或近义（关键）词进行检索；也可以通过某种联想进行关键词检索。</p>
+<p>辅助工具：<a href="http://tool.mingdawoo.com/lang/nearby_word">临近词汇检索</a></p>
+<p>2.语法是精准检索的一种手段。</p>
+<p>以“百度搜索引擎”为例（如无特别说明，所有语法符号、完整式子中的符号均为英文）：</p>
+
+<table border="0" align="center" cellpadding="6" cellspacing="1" width="100%" bgcolor="#23bf6f">
+
+<tr bgcolor="#e0e0e0">
+<th width="8%">语法符号</th>
+<th width="16%">完整式子</th>
+<th width="26%">用途</th>
+<th width="50%">举例</th>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td>+</td>
+<td>关键词1+关键词2</td>
+<td>强制包含各关键词</td>
+<td>
+<p>如：孙悟空+齐天大圣</p>
+<p>检索出的结果既含有“孙悟空”又含有“齐天大圣”。</p>
+</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td>-</td>
+<td>关键词1-关键词2</td>
+<td>排除关键词</td>
+<td>
+<p>如：孙悟空-齐天大圣</p>
+<p>检索出的关于“孙悟空”的内容不会含有“齐天大圣”。</p>
+</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td>""</td>
+<td>"关键词"</td>
+<td>使关键词不被拆开</td>
+<td>
+<p>如："齐天大圣孙悟空"</p>
+<p>会检索出完整含有“齐天大圣孙悟空”七个字的内容，而不会将其拆成“齐天大圣”和“孙悟空”两个关键词进行检索。</p></td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td>site</td>
+<td>
+<p>site:网址 关键词</p>
+<p>（注意空格）</p>
+</td>
+<td>在特定站点中检索关键词</td>
+<td>
+<p>如：site:www.1905.com 孙悟空</p>
+<p>会检索出“1905电影网（http://www.1905.com）”中含有“孙悟空”的内容。</p>
+</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td>intitle</td>
+<td>intitle:关键词</td>
+<td>检索出网页标题中含关键词的内容</td>
+<td>
+<p>如：intitle:孙悟空</p>
+<p>检索出网页标题中含有“孙悟空”三个字的结果。</p>
+</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td>……</td>
+<td>……</td>
+<td>……</td>
+<td>……</td>
+</tr>
+
+</table>
+
+<p>检索语法可以单独使用，也可以多个语法联合使用。例如：</p>
+
+<table border="0" align="center" cellpadding="6" cellspacing="1" width="100%" bgcolor="#23bf6f">
+
+<tr bgcolor="#e0e0e0">
+<th width="20%">语法式子</th>
+<th width="30%">用途</th>
+<th width="50%">举例</th>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td>
+<p>关键词 -site:网址</p>
+<p>（注意空格）</p>
+</td>
+<td>排除特定站点检索关键词</td>
+<td>
+<P>如：孙悟空 -site:www.1905.com</P>
+<p>会检索出除了"1905电影网（http://www.1905.com）"外的其它所有网站中含有"孙悟空"的内容。</p>
+</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td>……</td>
+<td>……</td>
+<td>……</td>
+</tr>
+
+</table>
+
+<p>此外，一些搜索引擎提供了“高级检索”的功能，将语法可视化。</p>
+<p>如：“百度搜索引擎”的“检索工具”提供了网页发布时间和文件格式的筛选以及站点内检索。</p>
+
+<!--信息检索的习惯-->
+<p id="first3">信息检索的习惯</p>
+<p>1.搜索引擎的选择</p>
+<p>百度、谷歌等搜索引擎可以满足大多数时候的信息检索的需要。</p>
+<p>检索「即时信息」可以考虑「微博」。</p>
+<p>检索「各类资源」可以考虑「微信搜一搜」。</p>
+<p>2.随手收藏网站、推文等</p>
+<p>有时候在检索的过程中会发现一些「可能有用」的网站，即使不在当次检索目标范围内也可以考虑收进收藏夹。</p>
+<p>在浏览推文时发现其中存在「可能有用」的内容亦是可以考虑将该推文收藏起来。当然，也要避免造成资源冗杂，做好标签、归类整理，免得需要用时找不到。</p>
+
+<p align="right">最后一次更新：2021-02-16</p>
+<hr/>
+
+</div>
+</div>
+
+</body>
+</html>
